@@ -160,7 +160,7 @@ class TechnicalAnalysisPanel:
                     return f"{dt.hour:02}:{dt.minute:02}"
             return ""
         except: return ""
-
+ 
     def on_draw(self, event):
         if event is not None and event.canvas == self.canvas:
             self.background = self.canvas.copy_from_bbox(self.ax.bbox)
