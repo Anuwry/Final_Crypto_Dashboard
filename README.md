@@ -1,7 +1,7 @@
 # Crypto Dashboard
 A real-time cryptocurrency dashboard disigned for market analysis and trading simulation. This application leverages the Binance WebSocket API to deliver live market data, Interactive technical analysis charting and a comprehensive futures trading simulator with risk management features.
 
-Built with **Python** and **Tkinter** and utilizing **Matplotlib** for high-performance data visualization.
+Built with **Python** and **Tkinter** and utilizing **Matplotlib** for high-performance data visualization
 
 ## Prerequisites
 This project is optimized for **Python 3.11**
@@ -33,8 +33,8 @@ python --version, py --version
 
 ## Key Features
 ### Real-time Market Intelligence
-**Live Price Streaming:** Sub-second price updates via Binance WebSocket API for multiple assets  
-(BTC, ETH, SOL, BNB, DOGE, etc...)  
+**Live Price Streaming:** ```text 
+Sub-second price updates via Binance WebSocket API for multiple assets (BTC, ETH, SOL, BNB, DOGE, etc...)```
 **Market Statistics:** Real-time displays of 24-hours vol, percentage changes and price direction  
 **Order Book and Trades:** Simulated Level 2 market depth and recent trade history feed  
 
@@ -73,7 +73,9 @@ crypto_dashboard/
 
 ## Configuration
 The application automatically creates and updates `settings.json` on exit to remember:
+
 - Last viewed cryptocurrency symbol
 - Selected timeframe interval
-- Visibility state of individual ticker widgets  
+- Visibility state of individual ticker widget
+
 **Customization:** You can modify `config.py` to change the default coin list or adjust the color theme
