@@ -33,7 +33,8 @@ Option (2): Using venv:
 
 ## Key Features
 ### Real-time Market Intelligence
-**Live Price Streaming:** Sub-second price updates via Binance WebSocket API for multiple assets (BTC, ETH, SOL, BNB, DOGE)  
+**Live Price Streaming:** Sub-second price updates via Binance WebSocket API for multiple assets  
+(BTC, ETH, SOL, BNB, DOGE)  
 **Market Statistics:** Real-time displays of 24-hours vol, percentage changes and price direction  
 **Order Book and Trades:** Simulated Level 2 market depth and recent trade history feed  
 
@@ -69,3 +70,10 @@ crypto_dashboard/
 ├── settings.json        # User Preferences Persistence  
 └── requirements.txt     # Project Dependencies  
 ```
+
+## Configuration
+The application automatically creates and updates `settings.json` on exit to remember:
+- Last viewed cryptocurrency symbol
+- Selected timeframe interval
+- Visibility state of individual ticker widgets
+**Customization:** You can modify `config.py` to change the default coin list or adjust the color theme
