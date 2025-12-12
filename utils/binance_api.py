@@ -4,7 +4,7 @@ import time
 def get_kline_data(symbol, interval="1m", limit=1000, retries=3):
     url = "https://api.binance.com/api/v3/klines"
     params = {"symbol": symbol.upper(), "interval": interval, "limit": limit}
-    
+     
     for attempt in range(retries):
         try:
             response = requests.get(url, params=params, timeout=10)
