@@ -1,11 +1,11 @@
 # Crypto Dashboard
-A real-time cryptocurrency dashboard disigned for market analysis and trading simulation. This application leverages the Binance WebSocket API to deliver live market data, Interactive technical analysis charting and a comprehensive futures trading simulator with risk management features.
+A real-time cryptocurrency dashboard disigned for market analysis and trading simulation. This application leverages the Binance WebSocket API to deliver live market data, Interactive technical analysis charting and a comprehensive futures trading simulator with risk management features
 
 Built with **Python** and **Tkinter** and utilizing **Matplotlib** for high-performance data visualization
 
 ## Prerequisites
 This project is optimized for **Python 3.11**
-Please don't use **Python 3.14 (Pre-release)** as some libraries (numpy/matplotlib) may not support it yet
+Please don't use **Python 3.14 (Pre-release)** as some libraries **(numpy/matplotlib)** may not support it yet
 
 ### Required
 **Python 3.11.x** (Recommended)
