@@ -52,3 +52,18 @@ Option (2): Using venv:
 **Responsive Design:** Adaptive layout that scales with window resizing
 **Persistence:** Auto-save functionality for user preferences - last selected symbol, timeframe, and visibility settings via `settings.json`
 **Modern UI:** "TradingView-style" Dark Theme for reduced eye strain during extended use
+
+## Project Structure
+crypto_dashboard/  
+├── components/  
+│   ├── ticker.py        # Real-time price card widgets  
+│   ├── technical.py     # Interactive Matplotlib chart panel  
+│   ├── futures.py       # Trading simulator & position management  
+│   └── orderbook.py     # Order book and recent trades visualization  
+├── utils/  
+│   ├── binance_api.py   # REST API wrapper for historical data  
+│   └── indicators.py    # Technical analysis calculations (Placeholder)  
+├── config.py  
+├── main.py              # Application Entry Point  
+├── settings.json        # User Preferences Persistence  
+└── requirements.txt     # Project Dependencies  
