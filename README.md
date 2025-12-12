@@ -33,38 +33,38 @@ python --version, py --version
 
 ## Key Features
 ### Real-time Market Intelligence
-* **Live Price Streaming:** 
+* **Live Price Streaming:**  
 Sub-second price updates via Binance WebSocket API for multiple assets  
 (BTC, ETH, SOL, BNB, DOGE, etc...)  
-* **Market Statistics:** 
+* **Market Statistics:**  
 Real-time displays of 24-hours vol, percentage changes and price direction  
-* **Order Book and Trades:** 
+* **Order Book and Trades:**  
 Simulated Level 2 market depth and recent trade history feed  
 
 ### Interactive Technical Analysis
-* **Advanced Charting:** 
+* **Advanced Charting:**  
 Custom implementation of Matplotlib within Tkinter  
-* **Interactivity:** 
+* **Interactivity:**  
 Full support for zooming, panning, and a dynamic crosshair cursor for precise data inspection  
-* **Multi-Timeframe:** 
+* **Multi-Timeframe:**  
 Seamless switching between timeframes  
 
 ### Futures Trading Simulator
-* **Portfolio Management:** 
+* **Portfolio Management:**  
 Real-time calculation of Balance, Equity and Margin  
-* **Order Execution:** 
+* **Order Execution:**  
 Support for **Buy** and **Sell** positions with adjustable leverage  
-* **Risk Management:** 
+* **Risk Management:**  
 Integrated fields for **Take Profit (TP)** and **Stop Loss (SL)** execution logic  
-* **Position Tracking:** 
+* **Position Tracking:**  
 Live P/L monitoring for open positions with visual profit/loss indicators  
 
 ### User Experience
-* **Responsive Design:** 
+* **Responsive Design:**  
 Adaptive layout that scales with window resizing
-* **Persistence:** 
+* **Persistence:**  
 Auto-save functionality for user preferences - last selected symbol, timeframe, and visibility settings via `settings.json`
-* **Modern UI:** 
+* **Modern UI:**  
 "TradingView-style" Dark Theme for reduced eye strain during extended use
 
 ## Project Structure
