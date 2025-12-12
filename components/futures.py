@@ -338,7 +338,7 @@ class FuturesPanel:
             if data['symbol'] == self.selected_symbol:
                 active_lines.append(data)
         self.chart_update_callback(active_lines)
-
+ 
     def switch_tab(self, tab_name):
         if self.current_tab == tab_name: return
         self.current_tab = tab_name
