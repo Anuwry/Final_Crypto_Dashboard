@@ -46,7 +46,7 @@ def test_websocket():
     thread.join(timeout=5)
     
     return received_data
-
+ 
 if __name__ == "__main__":
     print("Testing Binance API connectivity...\n")
     rest_ok = test_rest_api()
