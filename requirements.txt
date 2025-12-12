@@ -1,5 +1,6 @@
 #python -m pip install -r requirements.txt
-
+#tkinter is already in library
+ 
 websocket-client
 requests
 matplotlib
