@@ -33,20 +33,20 @@ Option (2): Using venv:
 
 ## Key Features
 ### Real-time Market Intelligence
-**Live Price Streaming:** Sub-second price updates via Binance WebSocket API for multiple assets (BTC, ETH, SOL, BNB, DOGE)
-**Market Statistics:** Real-time displays of 24-hours vol, percentage changes and price direction
-**Order Book and Trades:** Simulated Level 2 market depth and recent trade history feed
+**Live Price Streaming:** Sub-second price updates via Binance WebSocket API for multiple assets (BTC, ETH, SOL, BNB, DOGE)  
+**Market Statistics:** Real-time displays of 24-hours vol, percentage changes and price direction  
+**Order Book and Trades:** Simulated Level 2 market depth and recent trade history feed  
 
 ### Interactive Technical Analysis
-**Advanced Charting:** Custom implementation of Matplotlib within Tkinter
-**Interactivity:** Full support for zooming, panning, and a dynamic crosshair cursor for precise data inspection
-**Multi-Timeframe:** Seamless switching between timeframes
+**Advanced Charting:** Custom implementation of Matplotlib within Tkinter  
+**Interactivity:** Full support for zooming, panning, and a dynamic crosshair cursor for precise data inspection  
+**Multi-Timeframe:** Seamless switching between timeframes  
 
 ### Futures Trading Simulator
-**Portfolio Management:** Real-time calculation of Balance, Equity and Margin
-**Order Execution:** Support for **Buy** and **Sell** positions with adjustable leverage
-**Risk Management:** Integrated fields for **Take Profit (TP)** and **Stop Loss (SL)** execution logic
-**Position Tracking:** Live P/L monitoring for open positions with visual profit/loss indicators
+**Portfolio Management:** Real-time calculation of Balance, Equity and Margin  
+**Order Execution:** Support for **Buy** and **Sell** positions with adjustable leverage  
+**Risk Management:** Integrated fields for **Take Profit (TP)** and **Stop Loss (SL)** execution logic  
+**Position Tracking:** Live P/L monitoring for open positions with visual profit/loss indicators  
 
 ### User Experience
 **Responsive Design:** Adaptive layout that scales with window resizing
@@ -67,3 +67,7 @@ crypto_dashboard/
 ├── main.py              # Application Entry Point  
 ├── settings.json        # User Preferences Persistence  
 └── requirements.txt     # Project Dependencies  
+=======
+**Responsive Design:** Adaptive layout that scales with window resizing  
+**Persistence:** Auto-save functionality for user preferences - last selected symbol, timeframe, and visibility settings via `settings.json`  
+**Modern UI:** "TradingView-style" Dark Theme for reduced eye strain during extended use  
