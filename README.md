@@ -54,6 +54,7 @@ Option (2): Using venv:
 **Modern UI:** "TradingView-style" Dark Theme for reduced eye strain during extended use
 
 ## Project Structure
+```text
 crypto_dashboard/  
 ├── components/  
 │   ├── ticker.py        # Real-time price card widgets  
@@ -67,7 +68,4 @@ crypto_dashboard/
 ├── main.py              # Application Entry Point  
 ├── settings.json        # User Preferences Persistence  
 └── requirements.txt     # Project Dependencies  
-=======
-**Responsive Design:** Adaptive layout that scales with window resizing  
-**Persistence:** Auto-save functionality for user preferences - last selected symbol, timeframe, and visibility settings via `settings.json`  
-**Modern UI:** "TradingView-style" Dark Theme for reduced eye strain during extended use  
+```
