@@ -64,7 +64,7 @@ class CryptoTicker:
         else: vol_str = f"{volume:.2f}"
         self.lbl_volume.config(text=f"Vol: {vol_str} USDT")
         if self.on_update_callback: self.on_update_callback(self.symbol, price)
-
+ 
     def show(self):
         self.frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
         self.start()
