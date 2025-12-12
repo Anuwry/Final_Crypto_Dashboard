@@ -12,7 +12,7 @@ SETTINGS_FILE = "settings.json"
 class DashboardApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Pro Crypto Dashboard")
+        self.root.title("Crypto Dashboard")
         self.root.geometry("1200x850")
         self.root.configure(bg=COLOR_BG)
 
