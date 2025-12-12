@@ -49,7 +49,7 @@ class OrderBookPanel:
             lbl_t = tk.Label(row, text="--:--:--", fg=COLOR_TEXT_DIM, bg=COLOR_SIDEBAR, width=8, anchor="e", font=("Segoe UI", 8))
             lbl_t.pack(side=tk.RIGHT)
             self.trades_labels.append((lbl_p, lbl_a, lbl_t))
-
+  
     def update_data(self, price):
         spread = price * 0.0002
         for i, (lbl_p, lbl_a) in enumerate(self.ob_asks_labels):
