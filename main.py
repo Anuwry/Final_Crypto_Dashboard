@@ -8,7 +8,7 @@ from components.technical import TechnicalAnalysisPanel
 from components.futures import FuturesPanel
 
 SETTINGS_FILE = "settings.json"
-
+ 
 class DashboardApp:
     def __init__(self, root):
         self.root = root
