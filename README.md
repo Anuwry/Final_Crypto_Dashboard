@@ -17,13 +17,13 @@ python --version, py --version
 ```
 
 ## Project Setup Recommended
-Option (1): Direct Install:
+**Direct Install:**
 ```bash
 1 - py -3.11 -m pip install -r requirements.txt
 2 - py -3.11 main.py
 ```
 
-Option (2): Using venv:
+**Using venv:**
 ```bash
 1 - py -3.11 -m venv venv
 2 - .\venv\Scripts\activate
@@ -34,7 +34,7 @@ Option (2): Using venv:
 ## Key Features
 ### Real-time Market Intelligence
 **Live Price Streaming:** Sub-second price updates via Binance WebSocket API for multiple assets  
-(BTC, ETH, SOL, BNB, DOGE)  
+(BTC, ETH, SOL, BNB, DOGE, etc...)  
 **Market Statistics:** Real-time displays of 24-hours vol, percentage changes and price direction  
 **Order Book and Trades:** Simulated Level 2 market depth and recent trade history feed  
 
@@ -75,5 +75,5 @@ crypto_dashboard/
 The application automatically creates and updates `settings.json` on exit to remember:
 - Last viewed cryptocurrency symbol
 - Selected timeframe interval
-- Visibility state of individual ticker widgets
+- Visibility state of individual ticker widgets  
 **Customization:** You can modify `config.py` to change the default coin list or adjust the color theme
