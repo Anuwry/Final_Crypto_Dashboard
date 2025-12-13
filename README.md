@@ -80,7 +80,10 @@ crypto_dashboard/
 │   └── indicators.py    # Technical analysis calculations (Placeholder)  
 ├── config.py  
 ├── main.py              # Application Entry Point  
-├── settings.json        # User Preferences Persistence  
+├── settings.json        # User Preferences Persistence
+├── 6810545646_Project_UI.jpg
+├── test.py
+├── README.md
 └── requirements.txt     # Project Dependencies  
 ```
 
